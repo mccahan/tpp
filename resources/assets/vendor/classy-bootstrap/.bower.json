@@ -1,0 +1,25 @@
+{
+  "name": "classy-bootstrap",
+  "version": "0.0.3",
+  "description": "Additional classes for you Bootstrap Less",
+  "main": "less/classy.less",
+  "ignore": [
+    "README.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamesvillarrubia/classybootstrap.git"
+  },
+  "homepage": "https://github.com/jamesvillarrubia/classybootstrap",
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.3",
+    "commit": "5eecf1470f534e835b23c9918c2c69a7ebec4770"
+  },
+  "_source": "git://github.com/jamesvillarrubia/classybootstrap.git",
+  "_target": "~0.0.3",
+  "_originalSource": "classy-bootstrap"
+}

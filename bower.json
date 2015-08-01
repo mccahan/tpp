@@ -1,0 +1,29 @@
+{
+  "name": "tpp_signup",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jamesvillarrubia/tpp_signup",
+  "authors": [
+    "jamesvillarrubia <james.villarrubia@gmail.com>"
+  ],
+  "description": "The People Project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "resources/assets/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "bootstrap-select": "~1.6.4",
+    "font-awesome": "~4.3.0",
+    "handlebars.js": "~3.0.3",
+    "handlebars": "~3.0.3",
+    "moment": "~2.10.3",
+    "classy-bootstrap": "~0.0.3",
+    "jquery.easing": "~1.3.1",
+    "seiyria-bootstrap-slider": "~4.13.1"
+  }
+}
