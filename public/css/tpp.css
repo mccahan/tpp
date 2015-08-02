@@ -9857,6 +9857,15 @@ body {
 #tpp-register .slider-wrap .slider {
   width: 100%;
   margin-top: 5px;
+  transition: all 0.1s ease;
+}
+#tpp-register .slider-wrap .slider-tick {
+  transition: all 0.1s ease;
+}
+#tpp-register .slider-wrap .slider-selection,
+#tpp-register .slider-wrap .slider-track-high,
+#tpp-register .slider-wrap .slider-handle {
+  transition: all 0.03s ease;
 }
 #tpp-register .slider-wrap .slider-handle {
   position: absolute;
@@ -9886,6 +9895,7 @@ body {
   font-family: "Lato", Helvetica, sans-serif;
   border-radius: 20px;
   font-size: 14px;
+  transition: 0.15s ease;
   cursor: pointer;
 }
 #tpp-register .check-responses label:hover,

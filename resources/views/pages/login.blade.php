@@ -44,7 +44,6 @@
 						</div>
 					</div>
 				</fieldset>
-				
 				<fieldset>
 					<div class="row  no-gutters">
 						<div class="col-lg-6 col-md-8 col-md-offset-2 col-lg-offset-3 bg-white">

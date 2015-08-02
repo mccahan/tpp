@@ -185,7 +185,7 @@ $(document).ready(function(){
 	$('.check-responses-single label').on('click', function(){	
 		var id = $(this).attr('for');
 		var clicked = $(this);
-		var wrapper = $(this).closest('check-responses-single');
+		var wrapper = $(this).closest('.check-responses-single');
 		$('label', wrapper).removeClass('active');
 		$(this).addClass('active');
 	});
