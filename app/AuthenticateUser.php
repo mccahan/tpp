@@ -38,8 +38,10 @@ class AuthenticateUser {
 			return $this->getAuthorizationFirst();
 
 		}
+		dd($this->getLinkedInUser());
 
 		$user = $this->users->findByUsernameOrCreate($this->getLinkedInUser());
+		dd($this);
 
 		$this->auth->login($user, true);
 

@@ -18,15 +18,13 @@ Route::get('login', 'AuthController@login');
 Route::get('logout', 'AuthController@logout');
 
 
-
-
 Route::get('/', function (Request $request) {
     
     //return redirect()->to('api/v1/tasks');
 
 	if(Auth::check())
 	{
-		return view('pages.register');
+		return view('pages.registered');
 	} 
 	return view('pages.login');
 

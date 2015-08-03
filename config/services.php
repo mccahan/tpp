@@ -37,7 +37,9 @@ return [
     'linkedin' => [
         'client_id' => '787brh63x4un6k',
         'client_secret' => '2u7f59YIpQMpUqSQ',
-        'redirect' => 'http://tpp.com/login'
+        'redirect' => 'http://tpp.com/login',
+        'scope' => 'r_basicprofile r_emailaddress r_contactinfo r_fullprofile',
+
     ]
 
 ];

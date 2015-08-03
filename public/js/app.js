@@ -148,10 +148,24 @@ $(document).ready(function(){
 			slider_lang[i].slider('setValue',val);
 		}		
 	};
- 
+
+
+
+	$(".login").click(function(){
+
+
+
+	});
+
 
 	$(".submit").click(function(){
-		return false;
+		$.ajax({
+	        type: "POST",
+	        url: host+'/comment/add',
+	    }).done(function( msg ) {
+	        alert( msg );
+	    });
+	    return false;
 	});
 
 	$('.slider-year').on('change', function(slideEvt) {	
