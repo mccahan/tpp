@@ -1,6 +1,6 @@
 <head>
 	<meta charset= "UTF-8" >
-	<title>FourFusa</title>
+	<title>The People Project</title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 	<!-- CSS -->

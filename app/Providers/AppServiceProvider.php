@@ -11,10 +11,18 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
+    private function bootLinkedInFullSocialite()
+    {
+        
+    }
+
     public function boot()
     {
-        //
+
     }
+
+
 
     /**
      * Register any application services.

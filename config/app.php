@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => 'http://register.peopleproject.us',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY', '8LzM3kqwJsZbYYXlOhb8mreEVkFb7cJv'),
 
     'cipher' => 'AES-256-CBC',
 

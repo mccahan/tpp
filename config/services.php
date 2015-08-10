@@ -34,12 +34,14 @@ return [
         'key'    => '',
         'secret' => '',
     ],
-    'linkedin' => [
-        'client_id' => '787brh63x4un6k',
-        'client_secret' => '2u7f59YIpQMpUqSQ',
-        'redirect' => 'http://tpp.com/login',
-        'scope' => 'r_basicprofile r_emailaddress r_contactinfo r_fullprofile',
-
+    'linkedinfull' => [
+        'client_id' => getenv('LK_CLIENT'),
+        'client_secret' => getenv('LK_SECRET'),
+        'redirect' => getenv('LK_REDIRECT')
+    ],
+    'mailchimp' => [
+        'client_id' => env('MAILCHIMP_KEY'),
+        'client_secret' => env('MAILCHIMP_SECRET'),
+        'redirect' => env('MAILCHIMP_REDIRECT_URI'),  
     ]
-
 ];

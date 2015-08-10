@@ -11,7 +11,8 @@
         "illuminate/html": "~5.0",
         "laravel/socialite": "~2.0",
         "sleeping-owl/admin": "^2.0",
-        "socialiteproviders/linkedin": "^1.1"
+        "socialiteproviders/linkedin": "^1.1",
+        "socialiteproviders/linkedinfull": "^1.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -22,7 +22,11 @@
 				<div class="col-lg-6 col-md-8 col-md-offset-2 col-lg-offset-3">
 					<ul id="progressbar">
 						<li class="active">Register</li>
+						<li></li>
+						<li></li>
 						<li>Background</li>
+						<li></li>
+						<li></li>
 						<li>Submit</li>
 					</ul>
 				</div>

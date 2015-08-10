@@ -22,7 +22,11 @@
 				<div class="col-lg-6 col-md-8 col-md-offset-2 col-lg-offset-3">
 					<ul id="progressbar">
 						<li class="active">Register</li>
+						<li></li>
+						<li></li>
 						<li>Background</li>
+						<li></li>
+						<li></li>
 						<li>Submit</li>
 					</ul>
 				</div>
@@ -56,28 +60,28 @@
 							<div class="slider-wrap row">
 								<div class="col-sm-3 tx-sm-left slider-title">Government</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s1-a1" type="text" data-slider-value="0"/>
+									<input name="f_govt" class="slider-year" data-slider-id="s1-a1" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s1-a1">0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 tx-sm-left slider-title">NGO</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s1-a2" type="text" data-slider-value="0"/>
+									<input name="f_ngo" class="slider-year" data-slider-id="s1-a2" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s1-a2">0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Legislative/Hill</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s1-a3" type="text" data-slider-value="0"/>
+									<input name="f_hill" class="slider-year" data-slider-id="s1-a3" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s1-a3">0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Campaign</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s1-a4" type="text" data-slider-value="0"/>
+									<input name="f_campaign" class="slider-year" data-slider-id="s1-a4" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs  slider-count" for="s1-a4" >0 years</div>
 							</div>
@@ -105,35 +109,35 @@
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Policy & Analysis</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s2-a1" type="text" data-slider-value="0"/>
+									<input name="e_policy" class="slider-year" data-slider-id="s2-a1" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs  slider-count" for="s2-a1">0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Technical</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s2-a2" type="text" data-slider-value="0"/>
+									<input name="e_tech" class="slider-year" data-slider-id="s2-a2" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s2-a2">0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Comms/Media</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s2-a3" type="text" data-slider-value="0"/>
+									<input name="e_comms" class="slider-year" data-slider-id="s2-a3" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s2-a3">0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Research</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s2-a4" type="text"data-slider-value="0"/>
+									<input name="e_research" class="slider-year" data-slider-id="s2-a4" type="text"data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s2-a4" >0 years</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Design/Graphic</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-year" data-slider-id="s2-a5" type="text" data-slider-value="0"/>
+									<input name="e_design" class="slider-year" data-slider-id="s2-a5" type="text" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s2-a5" >0 years</div>
 							</div>
@@ -161,49 +165,49 @@
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Spanish</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a1" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_spanish" class="slider-lang" data-slider-id="s3-a1" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a1">None</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">French</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a2" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_french" class="slider-lang" data-slider-id="s3-a2" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a2">None</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Mandarin</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a3" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_mandarin" class="slider-lang" data-slider-id="s3-a3" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a3">None</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Cantonese</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a4" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_cantonese" class="slider-lang" data-slider-id="s3-a4" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a4" >None</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Arabic</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a5" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_arabic" class="slider-lang" data-slider-id="s3-a5" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a5" >None</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Japanese</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a6" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_japanese" class="slider-lang" data-slider-id="s3-a6" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a6" >None</div>
 							</div>
 							<div class="slider-wrap row">
 								<div class="col-sm-3 slider-title">Other</div>
 								<div class="col-sm-6 pd-h-2">
-									<input class="slider-lang" data-slider-id="s3-a7" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+									<input name="l_other" class="slider-lang" data-slider-id="s3-a7" type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
 								</div>
 								<div class="col-sm-2 hidden-xs slider-count" for="s3-a7" >None</div>
 							</div>
@@ -228,31 +232,31 @@
 								What Technology languages or tools are you particularly confident with?	
 							</div>
 							<div class="check-responses  pd-h-3 pd-v-3">
-								<input type="checkbox" id="q1-a1">
-								<input type="checkbox" id="q1-a2">
-								<input type="checkbox" id="q1-a3">
-								<input type="checkbox" id="q1-a4">
-								<input type="checkbox" id="q1-a5">
-								<input type="checkbox" id="q1-a6">
-								<input type="checkbox" id="q1-a7">
-								<input type="checkbox" id="q1-a8">
-								<input type="checkbox" id="q1-a9">
-								<input type="checkbox" id="q1-a10">
-								<input type="checkbox" id="q1-a11">
-								<input type="checkbox" id="q1-a12">
-								<input type="checkbox" id="q1-a13">
-								<input type="checkbox" id="q1-a14">						
-								<input type="checkbox" id="q1-a15">
-								<input type="checkbox" id="q1-a16">
-								<input type="checkbox" id="q1-a17">
-								<input type="checkbox" id="q1-a18">						
-								<input type="checkbox" id="q1-a19">
-								<input type="checkbox" id="q1-a20">
-								<input type="checkbox" id="q1-a21">
-								<input type="checkbox" id="q1-a22">						
-								<input type="checkbox" id="q1-a23">
-								<input type="checkbox" id="q1-a24">
-								<input type="checkbox" id="q1-a25">
+								<input name="p_javascript" type="checkbox" id="q1-a1">
+								<input name="p_msoffice" type="checkbox" id="q1-a2">
+								<input name="p_salesforce" type="checkbox" id="q1-a3">
+								<input name="p_ngpvan" type="checkbox" id="q1-a4">
+								<input name="p_lexisnexis" type="checkbox" id="q1-a5">
+								<input name="p_python" type="checkbox" id="q1-a6">
+								<input name="p_stata" type="checkbox" id="q1-a7">
+								<input name="p_r" type="checkbox" id="q1-a8">
+								<input name="p_sas" type="checkbox" id="q1-a9">
+								<input name="p_sql" type="checkbox" id="q1-a10">
+								<input name="p_spss" type="checkbox" id="q1-a11">
+								<input name="p_gis"  type="checkbox" id="q1-a12">
+								<input name="p_hadoop"  type="checkbox" id="q1-a13">
+								<input name="p_ruby"  type="checkbox" id="q1-a14">
+								<input name="p_perl"  type="checkbox" id="q1-a15">						
+								<input name="p_html"  type="checkbox" id="q1-a16">
+								<input name="p_java"  type="checkbox" id="q1-a17">
+								<input name="p_php"  type="checkbox" id="q1-a18">
+								<input name="p_legistorm"  type="checkbox" id="q1-a19">						
+								<input name="p_bloomberg" type="checkbox" id="q1-a20">
+								<input name="p_cq" type="checkbox" id="q1-a21">
+								<input name="p_iq"  type="checkbox" id="q1-a22">
+								<input name="p_westlaw"  type="checkbox" id="q1-a23">						
+								<input name="p_intertrack"  type="checkbox" id="q1-a24">
+								<input name="p_quorum"  type="checkbox" id="q1-a25">
 								<label for="q1-a1">Javascript</label>
 								<label for="q1-a2">Microsoft Office</label>
 								<label for="q1-a3">Salesforce</label>
@@ -300,13 +304,13 @@
 								Do you self identify as one or more of the following (check all that apply)?
 							</div>
 							<div class="check-responses  pd-h-3 pd-v-3">
-								<input type="checkbox" id="q2-a1">
-								<input type="checkbox" id="q2-a2">
-								<input type="checkbox" id="q2-a3">
-								<input type="checkbox" id="q2-a4">
-								<input type="checkbox" id="q2-a5">
-								<input type="checkbox" id="q2-a6">
-								<input type="checkbox" id="q2-a7">
+								<input name="s_americanindian"   type="checkbox" id="q2-a1">
+								<input name="s_asian"   type="checkbox" id="q2-a2">
+								<input name="s_black"   type="checkbox" id="q2-a3">
+								<input name="s_latino"   type="checkbox" id="q2-a4">
+								<input name="s_pacificislander"   type="checkbox" id="q2-a5">
+								<input name="s_white"   type="checkbox" id="q2-a6">
+								<input name="s_lgbtq"   type="checkbox" id="q2-a7">
 								<label for="q2-a1">American Indian or Alaskan Native</label>
 								<label for="q2-a2">Asian</label>
 								<label for="q2-a3">Black or African American</label>
@@ -319,13 +323,12 @@
 								Do you self identify as one or more of the following veteran statuses (check all that apply)?	
 							</div>
 							<div class="check-responses  pd-h-3 pd-v-3">
-								<input type="checkbox" id="q2-a8">
-								<input type="checkbox" id="q2-a9">
-								<input type="checkbox" id="q2-a10">
-								<input type="checkbox" id="q2-a11">
-								<input type="checkbox" id="q2-a12">
-								<input type="checkbox" id="q2-a13">
-								<input type="checkbox" id="q2-a14">	
+								<input name="s_vietnam"   type="checkbox" id="q2-a8">
+								<input name="s_afsm"   type="checkbox" id="q2-a9">
+								<input name="s_disvet"   type="checkbox" id="q2-a10">
+								<input name="s_specdisvet"   type="checkbox" id="q2-a11">
+								<input name="s_protectedvet"   type="checkbox" id="q2-a12">
+								<input name="s_recsepvet"   type="checkbox" id="q2-a13">
 								<label for="q2-a8">Vietnam Era Veteran</label>
 								<label for="q2-a9">Armed Forces Service Medal Veterans</label>
 								<label for="q2-a10">Disabled Veteran</label>
@@ -337,14 +340,11 @@
 								How do you self-identify with regard to gender?	
 							</div>
 							<div class="check-responses-single  pd-h-3 pd-v-3">
-								<input type="checkbox" id="q2-a15">
-								<input type="checkbox" id="q2-a16">
-								<input type="checkbox" id="q2-a17">
-								<input type="checkbox" id="q2-a18">
-								<label for="q2-a15">Male</label>
-								<label for="q2-a16">Female</label>
-								<label for="q2-a17">Other</label>
-								<label for="q2-a18">Choose not to answer</label>
+								<input name="s_gender" type="text" id="q2-a15">
+								<label value="1" for="q2-a15">Male</label>
+								<label value="2" for="q2-a15">Female</label>
+								<label value="3" for="q2-a15">Other</label>
+								<label value="4" for="q2-a15">Choose not to answer</label>
 							</div>
 							<div class="tx-center pd-h-3 pd-v-3">
 							    <a name="previous" class="previous action-button button dtran pd-v-5 pd-h-3 tx-center tx-white bg-lightblue bg-hv-white tx-hv-blue no-dec">
@@ -367,9 +367,9 @@
 								What is the highest level of education you have received?
 							</div>
 							<div class="check-responses-single  pd-h-3 pd-v-3">
-								<input type="text" id="q3-a1">
-								<label value="1" for="q3-a1">High School</label>
+								<input type="text" name="e_education" id="q3-a1">
 								<label value="2" for="q3-a1">Technical Certification</label>
+								<label value="1" for="q3-a1">High School</label>
 								<label value="3" for="q3-a1">Associates</label>
 								<label value="4" for="q3-a1">Some undergraduate work</label>
 								<label value="5" for="q3-a1">Undergraduate degree</label>
@@ -380,7 +380,7 @@
 							    <a name="previous" class="previous action-button button dtran pd-v-5 pd-h-3 tx-center tx-white bg-lightblue bg-hv-white tx-hv-blue no-dec">
 									<span class="headfont upperfont heavyfont no-dec ft-3">Back</span>
 								</a>
-								<a name="submit" class="next action-button button dtran pd-v-5 pd-h-3 tx-center tx-white bg-navy bg-hv-white tx-hv-blue no-dec">
+								<a name="submit" class="submit action-button button dtran pd-v-5 pd-h-3 tx-center tx-white bg-navy bg-hv-white tx-hv-blue no-dec">
 									<span class="headfont upperfont heavyfont no-dec ft-3">Submit</span>
 								</a>
 							</div>

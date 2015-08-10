@@ -17,6 +17,7 @@ use Illuminate\Http\Request;
 Route::get('login', 'AuthController@login');
 Route::get('logout', 'AuthController@logout');
 
+Route::post('submit', 'UserController@update');
 
 Route::get('/', function (Request $request) {
     

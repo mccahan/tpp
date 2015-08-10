@@ -41,7 +41,7 @@ class AuthenticateUser {
 		dd($this->getLinkedInUser());
 
 		$user = $this->users->findByUsernameOrCreate($this->getLinkedInUser());
-		dd($this);
+		//dd($this);
 
 		$this->auth->login($user, true);
 
@@ -52,14 +52,15 @@ class AuthenticateUser {
 	private function getAuthorizationFirst()
 	{
 
-		return $this->socialite->driver('linkedin')->redirect();
+		return Socialite::with('linkedinfull')->redirect();
+		//return $this->socialite->driver('linkedinfull')->redirect();
 
 	}
 
 	private function getLinkedInUser()
 	{
 
-		return $this->socialite->driver('linkedin')->user();
+		return $this->socialite->driver('linkedinfull')->user();
 
 	}
 

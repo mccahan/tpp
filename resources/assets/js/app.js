@@ -18,11 +18,11 @@ $(document).ready(function(){
 		
 		//activate next step on progressbar using the index of next_fs
 		var next_ind = $("fieldset").index(next_fs);
-		if(next_ind == $("fieldset").length-1){
+		/*if(next_ind == $("fieldset").length-1){
 			next_ind = 2;
 		}else{
 			next_ind = 1;
-		}
+		}*/
 		$("#progressbar li").eq(next_ind).addClass("active");
 		
 		//show the next fieldset
@@ -77,11 +77,11 @@ $(document).ready(function(){
 		
 		//de-activate current step on progressbar
 		var curr_ind = $("fieldset").index(current_fs);
-		if(curr_ind == 1){
+		/*if(curr_ind == 1){
 			curr_ind = 1;
 		}else{
 			curr_ind = 2;
-		}
+		}*/
 		$("#progressbar li").eq(curr_ind).removeClass("active");
 		
 		//show the previous fieldset
@@ -150,22 +150,30 @@ $(document).ready(function(){
 	};
 
 
-
-	$(".login").click(function(){
-
-
-
+	$.ajaxSetup({
+	    headers: {
+	        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+	    }
 	});
 
-
 	$(".submit").click(function(){
-		$.ajax({
-	        type: "POST",
-	        url: host+'/comment/add',
-	    }).done(function( msg ) {
-	        alert( msg );
-	    });
-	    return false;
+	        var data = $('#tpp-register').serializeArray();
+	        console.log(data);
+	        $.ajax({
+	        	method  : 'POST',
+	            url   : '/submit',
+	            dataType: "json",
+	            data  : {answers: data},
+	            success: function(a,b,c){
+	            	console.log(a);
+	            },
+	            complete: function(a,b,c){
+	            	console.log(a);
+	            },
+	            error: function(a,b,c){
+	            	console.log(a);
+	            }
+	        });
 	});
 
 	$('.slider-year').on('change', function(slideEvt) {	
@@ -191,7 +199,9 @@ $(document).ready(function(){
 		var id = $(this).attr('for');
 		if($('#'+id).is(":checked")){
 			$(this).removeClass('active');
+			$('#'+id).val('0');
 		}else{
+			$('#'+id).val('1');
 			$(this).addClass('active');
 		}
 	});
@@ -200,6 +210,7 @@ $(document).ready(function(){
 		var id = $(this).attr('for');
 		var clicked = $(this);
 		var wrapper = $(this).closest('.check-responses-single');
+		$('#'+id).val($(this).attr('value'));
 		$('label', wrapper).removeClass('active');
 		$(this).addClass('active');
 	});
