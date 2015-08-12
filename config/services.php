@@ -34,6 +34,11 @@ return [
         'key'    => '',
         'secret' => '',
     ],
+    'linkedin' => [
+        'client_id' => getenv('LK_CLIENT'),
+        'client_secret' => getenv('LK_SECRET'),
+        'redirect' => getenv('LK_REDIRECT')
+    ],
     'linkedinfull' => [
         'client_id' => getenv('LK_CLIENT'),
         'client_secret' => getenv('LK_SECRET'),

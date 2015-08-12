@@ -52,15 +52,19 @@ class AuthenticateUser {
 	private function getAuthorizationFirst()
 	{
 
-		return Socialite::with('linkedinfull')->redirect();
+		//return $this->socialite->driver('mailchimp')->redirect();
+		
+		//return Socialite::with('linkedin')->redirect();
+		return $this->socialite->driver('linkedin')->redirect();
 		//return $this->socialite->driver('linkedinfull')->redirect();
 
 	}
 
 	private function getLinkedInUser()
 	{
-
-		return $this->socialite->driver('linkedinfull')->user();
+		//return $this->socialite->driver('mailchimp')->redirect();
+		
+		return $this->socialite->driver('linkedin')->user();
 
 	}
 
