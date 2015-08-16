@@ -9714,15 +9714,15 @@ body {
   height: 100%;
 }
 body {
-  height: 100%;
-  margin: 0px;
-  padding: 0px 0px;
-  background-image: url('../img/ceiling.jpg');
+  bottom: 0;
+  background: url('../img/ceiling.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: 50% 0%;
-  background-repeat: no-repeat;
 }
 #tpp-wrapper {
+  bottom: 0px;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.92);
   /* FF3.6+ */
   /* Chrome,Safari4+ */
@@ -9733,7 +9733,6 @@ body {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9424242', endColorstr='#e6000000', GradientType=0);
   /* IE6-9 */
-  min-height: 100%;
 }
 #tpp-wrapper .button {
   cursor: pointer;

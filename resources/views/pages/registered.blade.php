@@ -258,7 +258,7 @@
 								<input name="p_intertrack"  type="checkbox" id="q1-a24">
 								<input name="p_quorum"  type="checkbox" id="q1-a25">
 								
-								<span>Coding:</span>
+								<div class="bodyfont heavyfont ft-4">Coding:</div>
 								<label for="q1-a1">Javascript</label>
 								<label for="q1-a6">Python</label>
 								<label for="q1-a8">R</label>
@@ -270,12 +270,12 @@
 								<label for="q1-a18">PHP</label>								
 								<label for="q1-a13">Hadoop</label>
 								<div class="pd-v-3"></div>
-								<span>Productivity:</span>
+								<div class="bodyfont heavyfont ft-4">Productivity:</div>
 								<label for="q1-a4">NGPVAN</label>
 								<label for="q1-a2">Microsoft Office</label>
 								<label for="q1-a3">Salesforce</label>
 								<div class="pd-v-3"></div>
-								<span>Research:</span>
+								<div class="bodyfont heavyfont ft-4">Research:</div>
 								<label for="q1-a5">LexisNexis</label>
 								<label for="q1-a7">Stata</label>
 								<label for="q1-a9">SAS</label>
