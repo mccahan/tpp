@@ -165,13 +165,15 @@ $(document).ready(function(){
 	            dataType: "json",
 	            data  : {answers: data},
 	            success: function(a,b,c){
-	            	console.log(a);
+	            	//console.log(a);
+	            	window.location = "http://register.peopleproject.us/thanks";
 	            },
 	            complete: function(a,b,c){
-	            	console.log(a);
+	            	//console.log(a);
 	            },
 	            error: function(a,b,c){
-	            	console.log(a);
+	            	//console.log(a);
+	            	alert('There was an error with your submission.  Check your connection and try again.');
 	            }
 	        });
 	});

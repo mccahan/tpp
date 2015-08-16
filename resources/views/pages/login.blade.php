@@ -38,7 +38,9 @@
 								WELCOME!
 							</div>
 							<div class="bodyfont tx-center ft-4 pd-h-3 pd-v-3">
-								<strong>The People Project</strong> is connecting the country's best political staffers and policy wonks with jobs and appointments which need those unique skills that only experience can provide.  <br><br>Registration is all it takes to start having your profile sent to the top political HR shops in the country. It's also <em>completely free</em>.  All you need to do is verify you are you through LinkedIn and complete the quick survey that follows.
+							<strong>The People Project</strong> is connecting the country's best and brightest political and policy talent to career opportunities in DC and around the country. 
+								<br><br>
+							Registering and logging in is what it takes to start having your profile available to top campaigns, political jobs, corporate entities, policy shops, nonprofits and other organizations. 
 							</div>
 							<div class="tx-center pd-h-3 pd-v-3">
 							    <a href="login" class="button dtran pd-v-5 pd-h-3 tx-center tx-white bg-lightblue bg-hv-white tx-hv-blue no-dec">

@@ -14,9 +14,8 @@ class UserRepository{
 		if( ! $user )
 		{
 			return User::firstOrCreate([
-
 				'name'		=> $userData->name,
-				'email'		=> $userData->email
+				'email'		=> $userData->email,
 			]);
 		}
 

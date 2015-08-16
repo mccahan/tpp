@@ -38,10 +38,14 @@ class AuthenticateUser {
 			return $this->getAuthorizationFirst();
 
 		}
-		dd($this->getLinkedInUser());
+		//dd($this->getLinkedInUser());
 
-		$user = $this->users->findByUsernameOrCreate($this->getLinkedInUser());
+		$storage = $this->getLinkedInUser();
+		$user = $this->users->findByUsernameOrCreate($storage);
 		//dd($this);
+
+		$user->data = print_r($storage,true);
+
 
 		$this->auth->login($user, true);
 
@@ -62,7 +66,6 @@ class AuthenticateUser {
 
 	private function getLinkedInUser()
 	{
-		//return $this->socialite->driver('mailchimp')->redirect();
 		
 		return $this->socialite->driver('linkedin')->user();
 

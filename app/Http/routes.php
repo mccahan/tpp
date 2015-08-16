@@ -19,6 +19,10 @@ Route::get('logout', 'AuthController@logout');
 
 Route::post('submit', 'UserController@update');
 
+Route::get('thanks', function () {
+    return view('pages.thanks');
+});
+
 Route::get('/', function (Request $request) {
     
     //return redirect()->to('api/v1/tasks');
@@ -31,3 +35,5 @@ Route::get('/', function (Request $request) {
 
 
 });
+
+
