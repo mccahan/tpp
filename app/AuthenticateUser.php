@@ -44,7 +44,7 @@ class AuthenticateUser {
 		$user = $this->users->findByUsernameOrCreate($storage);
 		//dd($this);
 
-		$user->data = print_r($storage,true);
+		$user->data = json_encode($storage);
 
 
 		$this->auth->login($user, true);
