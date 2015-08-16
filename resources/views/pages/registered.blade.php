@@ -257,24 +257,30 @@
 								<input name="p_westlaw"  type="checkbox" id="q1-a23">						
 								<input name="p_intertrack"  type="checkbox" id="q1-a24">
 								<input name="p_quorum"  type="checkbox" id="q1-a25">
+								
+								<span>Coding:</span>
 								<label for="q1-a1">Javascript</label>
-								<label for="q1-a2">Microsoft Office</label>
-								<label for="q1-a3">Salesforce</label>
-								<label for="q1-a4">NGPVAN</label>
-								<label for="q1-a5">LexisNexis</label>
 								<label for="q1-a6">Python</label>
-								<label for="q1-a7">Stata</label>
 								<label for="q1-a8">R</label>
-								<label for="q1-a9">SAS</label>
 								<label for="q1-a10">SQL</label>
-								<label for="q1-a11">SPSS</label>
-								<label for="q1-a12">GIS</label>
-								<label for="q1-a13">Hadoop</label>
 								<label for="q1-a14">Ruby</label>
 								<label for="q1-a15">Perl</label>
 								<label for="q1-a16">HTML</label>
 								<label for="q1-a17">Java</label>
-								<label for="q1-a18">PHP</label>
+								<label for="q1-a18">PHP</label>								
+								<label for="q1-a13">Hadoop</label>
+								<div class="pd-v-3"></div>
+								<span>Productivity:</span>
+								<label for="q1-a4">NGPVAN</label>
+								<label for="q1-a2">Microsoft Office</label>
+								<label for="q1-a3">Salesforce</label>
+								<div class="pd-v-3"></div>
+								<span>Research:</span>
+								<label for="q1-a5">LexisNexis</label>
+								<label for="q1-a7">Stata</label>
+								<label for="q1-a9">SAS</label>
+								<label for="q1-a11">SPSS</label>
+								<label for="q1-a12">GIS</label>
 								<label for="q1-a19">Legistorm</label>
 								<label for="q1-a20">Bloomberg Gov</label>
 								<label for="q1-a21">CQ</label>
@@ -282,6 +288,7 @@
 								<label for="q1-a23">Westlaw</label>
 								<label for="q1-a24">Intertrack</label>
 								<label for="q1-a25">Quorum</label>
+
 							</div>
 							<div class="tx-center pd-h-3 pd-v-3">
 							    <a name="previous" class="previous action-button button dtran pd-v-5 pd-h-3 tx-center tx-white bg-lightblue bg-hv-white tx-hv-blue no-dec">
@@ -368,13 +375,11 @@
 							</div>
 							<div class="check-responses-single  pd-h-3 pd-v-3">
 								<input type="text" name="e_education" id="q3-a1">
-								<label value="2" for="q3-a1">Technical Certification</label>
 								<label value="1" for="q3-a1">High School</label>
-								<label value="3" for="q3-a1">Associates</label>
-								<label value="4" for="q3-a1">Some undergraduate work</label>
-								<label value="5" for="q3-a1">Undergraduate degree</label>
-								<label value="6" for="q3-a1">Some Post Graduate</label>
-								<label value="7" for="q3-a1">Post Graduate</label>
+								<label value="2" for="q3-a1">Associates</label>
+								<label value="3" for="q3-a1">Bachelor's</label>
+								<label value="4" for="q3-a1">Graduate</label>
+								<label value="5" for="q3-a1">Post Graduate</label>
 							</div>
 							<div class="tx-center pd-h-3 pd-v-3">
 							    <a name="previous" class="previous action-button button dtran pd-v-5 pd-h-3 tx-center tx-white bg-lightblue bg-hv-white tx-hv-blue no-dec">

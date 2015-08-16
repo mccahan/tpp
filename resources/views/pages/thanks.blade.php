@@ -38,7 +38,7 @@
 								THANK YOU!
 							</div>
 							<div class="bodyfont tx-center ft-4 pd-h-3 pd-v-1">
-							Your profile has been saved.
+							You're now one of our early testers.  We'll send out an email when we're ready to launch!
 							</div>
 						</div>
 					</div>
