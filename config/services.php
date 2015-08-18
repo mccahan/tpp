@@ -35,18 +35,14 @@ return [
         'secret' => '',
     ],
     'linkedin' => [
-        'client_id' => getenv('LK_CLIENT'),
-        'client_secret' => getenv('LK_SECRET'),
-        'redirect' => getenv('LK_REDIRECT')
-    ],
-    'linkedinfull' => [
-        'client_id' => getenv('LK_CLIENT'),
-        'client_secret' => getenv('LK_SECRET'),
-        'redirect' => getenv('LK_REDIRECT')
+        'client_id' => env('LK_CLIENT'),
+        'client_secret' => env('LK_SECRET'),
+        'redirect' => env('LK_REDIRECT')
     ],
     'mailchimp' => [
-        'client_id' => env('MAILCHIMP_KEY'),
-        'client_secret' => env('MAILCHIMP_SECRET'),
-        'redirect' => env('MAILCHIMP_REDIRECT_URI'),  
-    ]
+        'client_id' => env('MC_CLIENT'),
+        'client_secret' => env('MC_SECRET'),
+        'redirect' => env('MC_REDIRECT'),  
+    ],
+
 ];

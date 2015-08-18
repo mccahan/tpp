@@ -15,8 +15,7 @@ class EventServiceProvider extends ServiceProvider
     protected $listen = [
         'SocialiteProviders\Manager\SocialiteWasCalled' => [
             //'SocialiteProviders\MailChimp\MailChimpExtendSocialite@handle',
-            'SocialiteProviders\LinkedIn\LinkedInExtendSocialite@handle'
-            //'SocialiteProviders\LinkedInFull\LinkedInFullExtendSocialite@handle'
+            //'SocialiteProviders\LinkedIn\LinkedInExtendSocialite@handle'
         ]
     ];
 

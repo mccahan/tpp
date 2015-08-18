@@ -38,7 +38,8 @@ class AuthenticateUser {
 			return $this->getAuthorizationFirst();
 
 		}
-		//dd($this->getLinkedInUser());
+		//$this->getLinkedInUser();
+		//dd($this);
 
 		$storage = $this->getLinkedInUser();
 		$user = $this->users->findByUsernameOrCreate($storage);
@@ -56,18 +57,19 @@ class AuthenticateUser {
 	private function getAuthorizationFirst()
 	{
 
-		//return $this->socialite->driver('mailchimp')->redirect();
 		
-		//return Socialite::with('linkedin')->redirect();
-		return $this->socialite->driver('linkedin')->redirect();
-		//return $this->socialite->driver('linkedinfull')->redirect();
+		return $this->socialite->with('linkedin')->redirect();
 
 	}
 
 	private function getLinkedInUser()
 	{
 		
-		return $this->socialite->driver('linkedin')->user();
+		//dd($this->socialite->with('linkedin'));//->user());		
+		//dd($this->socialite->with('mailchimp')->user());
+		//dd($this->socialite->with('linkedin')->user());
+		//return $this->socialite->driver('mailchimp')->user();
+		return $this->socialite->with('linkedin')->user();
 
 	}
 

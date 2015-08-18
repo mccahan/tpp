@@ -148,8 +148,8 @@ return [
         'Barryvdh\Debugbar\ServiceProvider',
 
         //Socialite
-        //Laravel\Socialite\SocialiteServiceProvider::class,
-        'SocialiteProviders\Manager\ServiceProvider', // add
+        Laravel\Socialite\SocialiteServiceProvider::class,
+        //'SocialiteProviders\Manager\ServiceProvider', // add
 
  
         //Admin Panel
