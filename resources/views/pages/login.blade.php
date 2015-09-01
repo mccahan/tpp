@@ -38,9 +38,9 @@
 								WELCOME!
 							</div>
 							<div class="bodyfont tx-center ft-4 pd-h-3 pd-v-3">
-							<strong>The People Project</strong> is connecting the country's best and brightest political and policy talent to career opportunities in DC and around the country. 
+							<strong>The People Project</strong> is connecting the country's best and brightest political and policy talent to career opportunities in DC and around the country.
 								<br><br>
-							Registering and logging in is what it takes to start having your profile available to top campaigns, political jobs, corporate entities, policy shops, nonprofits and other organizations. 
+							Registering and logging in is what it takes to start having your profile available to top campaigns, political jobs, corporate entities, policy shops, nonprofits and other organizations.
 							</div>
 							<div class="tx-center pd-h-3 pd-v-3">
 							    <a href="login" class="button dtran pd-v-5 pd-h-3 tx-center tx-white bg-lightblue bg-hv-white tx-hv-blue no-dec">
@@ -50,7 +50,8 @@
 						</div>
 					</div>
 				</fieldset>
-			</div>			
+				<p style="color:grey;font-weight:bold;padding-top:10px;">Contact us at <a href="mailto:info@peopleproject.us">info@peopleproject.us</a></p>
+			</div>
 		</form>
 		<div class="clearfix pd-v-1"></div>
 		</div>
@@ -101,7 +102,7 @@ Asian
 Black or African American
 Hispanic or Latino
 Native Hawaiian or Pacific Islander
-White 
+White
 LGBTQ
 Veteran status
 10. Do you self identify as one or more of the following:  [optional - select any/all that apply]
@@ -144,12 +145,12 @@ Java
 PHP
 Legistorm
 Bloomberg Gov
-CQ 
+CQ
 IQ
 Westlaw
 Intertrack
 Quorum
-14. Skills that aren’t software or programming 
+14. Skills that aren’t software or programming
 Media:
 Press release writing
 Speech writing, op-ed writing, etc.

@@ -229,7 +229,7 @@
 								Proficiencies
 							</div>
 							<div class="bodyfont tx-center ft-4 pd-h-3 pd-v-3">
-								What Technology languages or tools are you particularly confident with?	
+								What Technology languages or tools are you particularly confident with?
 							</div>
 							<div class="check-responses  pd-h-3 pd-v-3">
 								<input name="p_javascript" type="checkbox" id="q1-a1">
@@ -246,18 +246,18 @@
 								<input name="p_gis"  type="checkbox" id="q1-a12">
 								<input name="p_hadoop"  type="checkbox" id="q1-a13">
 								<input name="p_ruby"  type="checkbox" id="q1-a14">
-								<input name="p_perl"  type="checkbox" id="q1-a15">						
+								<input name="p_perl"  type="checkbox" id="q1-a15">
 								<input name="p_html"  type="checkbox" id="q1-a16">
 								<input name="p_java"  type="checkbox" id="q1-a17">
 								<input name="p_php"  type="checkbox" id="q1-a18">
-								<input name="p_legistorm"  type="checkbox" id="q1-a19">						
+								<input name="p_legistorm"  type="checkbox" id="q1-a19">
 								<input name="p_bloomberg" type="checkbox" id="q1-a20">
 								<input name="p_cq" type="checkbox" id="q1-a21">
 								<input name="p_iq"  type="checkbox" id="q1-a22">
-								<input name="p_westlaw"  type="checkbox" id="q1-a23">						
+								<input name="p_westlaw"  type="checkbox" id="q1-a23">
 								<input name="p_intertrack"  type="checkbox" id="q1-a24">
 								<input name="p_quorum"  type="checkbox" id="q1-a25">
-								
+
 								<div class="bodyfont heavyfont ft-4">Coding:</div>
 								<label for="q1-a1">Javascript</label>
 								<label for="q1-a6">Python</label>
@@ -267,7 +267,7 @@
 								<label for="q1-a15">Perl</label>
 								<label for="q1-a16">HTML</label>
 								<label for="q1-a17">Java</label>
-								<label for="q1-a18">PHP</label>								
+								<label for="q1-a18">PHP</label>
 								<label for="q1-a13">Hadoop</label>
 								<div class="pd-v-3"></div>
 								<div class="bodyfont heavyfont ft-4">Productivity:</div>
@@ -327,7 +327,7 @@
 								<label for="q2-a7">LGBTQ</label>
 							</div>
 							<div class="bodyfont tx-center ft-4 pd-h-3 pd-v-3">
-								Do you self identify as one or more of the following veteran statuses (check all that apply)?	
+								Do you self identify as one or more of the following veteran statuses (check all that apply)?
 							</div>
 							<div class="check-responses  pd-h-3 pd-v-3">
 								<input name="s_vietnam"   type="checkbox" id="q2-a8">
@@ -344,7 +344,7 @@
 								<label for="q2-a13">Recently Separated Veteran</label>
 							</div>
 							<div class="bodyfont tx-center ft-4 pd-h-3 pd-v-3">
-								How do you self-identify with regard to gender?	
+								How do you self-identify with regard to gender?
 							</div>
 							<div class="check-responses-single  pd-h-3 pd-v-3">
 								<input name="s_gender" type="text" id="q2-a15">
@@ -392,6 +392,7 @@
 						</div>
 					</div>
 				</fieldset>
+				<p style="color:grey;font-weight:bold;padding-top:10px;">Contact us at <a href="mailto:info@peopleproject.us">info@peopleproject.us</a></p>
 			</div>
 		</form>
 		<div class="clearfix pd-v-1"></div>
@@ -443,7 +444,7 @@ Asian
 Black or African American
 Hispanic or Latino
 Native Hawaiian or Pacific Islander
-White 
+White
 LGBTQ
 Veteran status
 10. Do you self identify as one or more of the following:  [optional - select any/all that apply]
@@ -486,12 +487,12 @@ Java
 PHP
 Legistorm
 Bloomberg Gov
-CQ 
+CQ
 IQ
 Westlaw
 Intertrack
 Quorum
-14. Skills that aren’t software or programming 
+14. Skills that aren’t software or programming
 Media:
 Press release writing
 Speech writing, op-ed writing, etc.

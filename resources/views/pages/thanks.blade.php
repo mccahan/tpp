@@ -43,7 +43,8 @@
 						</div>
 					</div>
 				</fieldset>
-			</div>			
+				<p style="color:grey;font-weight:bold;padding-top:10px;">Contact us at <a href="mailto:info@peopleproject.us">info@peopleproject.us</a></p>
+			</div>
 		</form>
 		<div class="clearfix pd-v-1"></div>
 		</div>
